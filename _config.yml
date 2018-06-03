@@ -3,7 +3,7 @@ description: Blogging about the creative process
 meta_description: "\\art 2018"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 10
 baseurl: /
