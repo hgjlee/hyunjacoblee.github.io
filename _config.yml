@@ -1,16 +1,19 @@
-name: \art 2018
-description: Blogging about the creative process
-meta_description: "\\art 2018"
+title:             \Art '18
+email:             your-email@example.com
+description:       Check out what we're up to. 
+author:            Christy Cui & Jacob Lee
+baseurl:           "/backslashart.github.io"
+url:               "http://backslashart-testing.github.io"
 
-markdown: kramdown
-highlighter: rouge
-logo: false
-paginate: 10
-baseurl: /
-domain_name: 'http://backslashart.github.io'
-google_analytics: 'UA-XXXXXXXX-X'
-plugins: [jekyll-paginate]
+# Social Profiles
+twitter_username:  none
+github_username:   hyunjacoblee
+facebook_username: none
 
-# Details for the RSS feed generator
-url:            'http://backslashart.github.io'
-author:         'Christy Cui, Jacob Lee'
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate

@@ -1,0 +1,44 @@
+.home-btn {
+  font-size: 12px;
+  text-transform: uppercase;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+}
+
+.home-form {
+	font-size: 14px;
+	height: 40px; 
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+form{
+	padding-left: calc(50% - 240px);
+}
+
+background-image{
+  background-color: transparent;
+}
+
+@keyframes svgg {
+  from{
+  stroke-dashoffset: 4663;
+  }
+  to {
+  stroke-dashoffset: 0;}
+}
+
+#svgg {
+  stroke-dasharray: 50%;
+  stroke-dashoffset: 4663;
+  animation: svgg 60s linear infinite;
+}
+
+svg{
+  display: block;
+  margin: 0 auto;
+  top: calc(50% - 250px);
+  left: calc(50% - 240px);
+}
